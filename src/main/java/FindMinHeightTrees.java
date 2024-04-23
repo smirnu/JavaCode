@@ -11,7 +11,7 @@ import java.util.*;
 
 public class FindMinHeightTrees {
     public List<Integer> findMinHeightTrees(int n, int[][] edges) {
-        // list of roots to return
+        // list of roots wth mn height to return
         List<Integer> treesMinHeight = new ArrayList<>();
         if (edges.length == 0 && n == 1) {
             treesMinHeight.add(0);
